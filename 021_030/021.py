@@ -7,3 +7,6 @@
 # 실행 예:
 # >>> nstring
 # 'NAVER;KAKAO;SK;SAMSUNG'
+companies = ['NAVER', 'KAKAO', 'SK', 'SAMSUNG']
+nstring = ';'.join(companies)
+print(nstring)
